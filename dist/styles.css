@@ -1,0 +1,84 @@
+body, h1, h2, h3, h4, h5, h6 {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 600;
+}
+
+h3 {
+  font-size: 3rem;
+  font-weight: 1000 !important;
+}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+.rcorners1 {
+  border-radius: 15px 50px 30px 5px;
+  background: #73AD21;
+  padding: 20px;
+  width: 250px;
+  text-decoration: none;
+}
+
+.heroTitle {
+  line-height: 1;
+}
+
+.heroButton {
+  font-size: 25px !important;
+  font-weight: bold;
+}
+
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("/app/assets/dchero.jpg");
+  min-height: 100%;
+}
+
+.bgimg-2 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("/app/assets/highrise.jpeg");
+  min-height: 100%;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+
+footer p {
+  font-family: "Inter Tight", system-ui;
+  font-weight: 500;
+}
+
+.navColor {
+  background-color: #3f90e1;
+}
+
+.navFont {
+  font-family: "DM Sans", sans-serif;
+  font-weight: 1000;
+  color: white;
+}
+
+.navButton {
+  border: none;
+  display: inline-block;
+  padding: 20px 16px !important;
+  vertical-align: middle;
+  overflow: hidden;
+  text-decoration: none;
+  color: inherit;
+  background-color: inherit;
+  text-align: center;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.navButton:hover {
+  background: rgb(63, 144, 225);
+  background: linear-gradient(360deg, rgb(63, 144, 225) 0%, rgb(55, 132, 209) 35%, rgb(32, 82, 131) 100%);
+  color: white;
+}/*# sourceMappingURL=styles.css.map */
