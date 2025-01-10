@@ -1,0 +1,29 @@
+.navColor {
+    background-color: #3f90e1;
+}
+
+.navFont {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 1000;
+    color: white;
+}
+
+.navButton{
+    border: none;
+    display: inline-block;
+    padding: 20px 16px !important;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background-color: inherit;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.navButton:hover {
+    background: rgb(63,144,225);
+    background: linear-gradient(360deg, rgba(63,144,225,1) 0%, rgba(55,132,209,1) 35%, rgba(32,82,131,1) 100%);
+    color: white;
+}
